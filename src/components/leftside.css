@@ -1,0 +1,15 @@
+.listL{
+    list-style-type: none;
+    color:black;
+    width:7rem;
+    height:100vh;
+    background-color: #fff;
+    position:absolute;
+    top:0px;
+    left:0px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    
+}
+ 
