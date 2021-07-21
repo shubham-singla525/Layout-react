@@ -1,12 +1,14 @@
 import './rightside.css'
+import {BsDashCircle,BsGeoAlt,BsInfoCircleFill} from 'react-icons/bs'
+
 function rightsidebar(){
     return (
         <>
         <div>
           <ul className="listR">
-          <li><h1>4</h1></li>
-          <li><h1>5</h1></li>
-          <li><h1>6</h1></li>
+          <span><li><BsDashCircle/></li></span>
+          <span><li><BsGeoAlt/></li></span>
+          <span><li><BsInfoCircleFill/></li></span>
           </ul>  
         </div>
         </>
